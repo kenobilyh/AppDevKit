@@ -20,6 +20,7 @@
 		00EC7402299E7C9400574667 /* AppDevImageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 00EC7401299E7C9400574667 /* AppDevImageKit */; };
 		00EC7404299E7C9400574667 /* AppDevKit in Frameworks */ = {isa = PBXBuildFile; productRef = 00EC7403299E7C9400574667 /* AppDevKit */; };
 		00EC7406299E7C9400574667 /* AppDevListViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = 00EC7405299E7C9400574667 /* AppDevListViewKit */; };
+		00EC7408299E7E9900574667 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EC7407299E7E9900574667 /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		00EC73E3299E7B0500574667 /* AppDevKitSPMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDevKitSPMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00EC73E7299E7B0500574667 /* AppDevKitSPMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDevKitSPMDemoUITests.swift; sourceTree = "<group>"; };
 		00EC73E9299E7B0500574667 /* AppDevKitSPMDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDevKitSPMDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00EC7407299E7E9900574667 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				00EC73CC299E7B0200574667 /* AppDevKitSPMDemoApp.swift */,
 				00EC73CE299E7B0200574667 /* ContentView.swift */,
+				00EC7407299E7E9900574667 /* DemoViewController.swift */,
 				00EC73D0299E7B0400574667 /* Assets.xcassets */,
 				00EC73D2299E7B0400574667 /* Preview Content */,
 			);
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00EC7408299E7E9900574667 /* DemoViewController.swift in Sources */,
 				00EC73CF299E7B0200574667 /* ContentView.swift in Sources */,
 				00EC73CD299E7B0200574667 /* AppDevKitSPMDemoApp.swift in Sources */,
 			);
