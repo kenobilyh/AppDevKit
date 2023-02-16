@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "appdevkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yahoo/AppDevKit",
+      "state" : {
+        "branch" : "master",
+        "revision" : "559fd66ecbc7731012fe1aecc5da4a43ca3b169c"
+      }
+    }
+  ],
+  "version" : 2
+}
